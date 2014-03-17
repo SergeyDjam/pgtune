@@ -13,8 +13,8 @@ Requires:	postgresql-server
 Buildarch:	noarch
 
 %description
-pgtune takes the wimpy default postgresql.conf and expands the database server 
-to be as powerful as the hardware it's being deployed on.
+pgtune takes the wimpy default postgresql.conf and expands the database server
+to be as powerful as the hardware it is being deployed on.
 
 %prep
 %setup -q -n %{name}-%{version}
@@ -44,4 +44,4 @@ rm -rf %{buildroot}
 * Wed Oct 28 2009 Devrim Gunduz <devrim@commandprompt.com> 0.9.1-1
 - Initial packaging for PostgreSQL RPM Repository
 * Wed Oct 28 2009 Greg Smith <gsmith@gregsmith.com> 0.9.2-1
-- Added copyright file, doesn't install sample postgresql.conf file.
+- Added copyright file, does not install sample postgresql.conf file.
