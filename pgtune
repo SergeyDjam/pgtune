@@ -343,8 +343,8 @@ class PGSettings(object):
 
         # TODO Allow passing in platform bit size
         # TODO Map higher version to lowest available settings file
-        # e.g. -v 9.3 should map to pg_settings-9.1 file unless
-        # a pg_settings-9.3 file exists
+        # e.g. -v 9.4 should map to pg_settings-9.3 file unless
+        # a pg_settings-9.4 file exists
         setting_dump_file = os.path.join(self.settings_dir,
                                          "pg_settings-%s-%s"
                                          % (options.version, platform_bits))
@@ -667,9 +667,9 @@ def read_options(program_args):
     parser.add_option('-V',
                       '--version',
                       dest="version",
-                      default="9.3",
+                      default="9.4",
                       help="PostgreSQL database version to tune for. "
-                           "Valid options are 8.4, 9.0, 9.1 and 9.3")
+                           "Valid options are 8.4, 9.0, 9.1, 9.3 and 9.4")
 
     parser.add_option('-P',
                       '--platform',

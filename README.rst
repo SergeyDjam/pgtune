@@ -1,7 +1,7 @@
 Introduction
 ============
 
-pgtune takes the wimpy default postgresql.conf and expands the database 
+pgtune takes the wimpy default postgresql.conf and expands the database
 server to be as powerful as the hardware it's being deployed on.
 
 Installation/Usage
@@ -41,24 +41,27 @@ are the current parameters:
 
  * -i or --input-config : Specifies the current postgresql.conf file.
 
- * -o or --output-config : Specifies the file name for the new 
+ * -o or --output-config : Specifies the file name for the new
    postgresql.conf file.
 
- * -M or --memory: Use this parameter to specify total system memory. If 
+ * -M or --memory : Use this parameter to specify total system memory. If
    not specified, pgtune will attempt to detect memory size.
 
  * -T or --type : Specifies database type. Valid options are:
    DW, OLTP, Web, Mixed, Desktop
 
+ * -V or --version : Specifices database version to tune for. Valid options are:
+   8.4, 9.0, 9.1, 9.3 and 9.4
+
  * -P or --platform : Specifies platform, defaults to the platform running
    the program.  Valid options are Windows, Linux, and Darwin (Mac OS X).
 
- * -c or --connections: Specifies number of maximum connections expected.
+ * -c or --connections : Specifies number of maximum connections expected.
    If not specified, it depends on database type.
 
- * -D or --debug : Enables debugging mode. 
+ * -D or --debug : Enables debugging mode.
 
- * -S or --settings: Directory where settings data files are located at.
+ * -S or --settings : Directory where settings data files are located at.
    Defaults to the directory where the script is being run from.  The
    RPM package includes a patch to use the correct location these
    files were installed into.
@@ -104,29 +107,28 @@ pgtune is licensed under a standard 3-clause BSD license.
 Copyright (c) 2009-2013, Gregory Smith
 All rights reserved.
 
-Redistribution and use in source and binary forms, with or without 
-modification, are permitted provided that the following conditions are 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
 met:
 
-  * Redistributions of source code must retain the above copyright 
+  * Redistributions of source code must retain the above copyright
     notice, this list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright 
-    notice, this list of conditions and the following disclaimer in 
-    the documentation and/or other materials provided with the 
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
     distribution.
-  * Neither the name of the author nor the names of contributors may 
-    be used to endorse or promote products derived from this 
+  * Neither the name of the author nor the names of contributors may
+    be used to endorse or promote products derived from this
     software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS 
-IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED 
-TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A 
-PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
-HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
 SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-

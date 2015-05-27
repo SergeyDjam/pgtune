@@ -28,7 +28,7 @@ Limits on parameters
 * Warn when total RAM <256MB (stub)
 * Update 8.4 settings files, default_statistics_target should be 100
 * Add 9.0 32-bit settings file
-* Add 9.1, 9.2, 9.3 settings files
+* Add 9.2 settings files
 
 Model Improvements
 ------------------
@@ -57,7 +57,7 @@ Platform specific details
 
 * Additional program inputs
 
-  * PostgreSQL version and platform, to select the right pg_settings file
+  * PostgreSQL platform, to select the right pg_settings file
 
   * Platform may be possible to detect; see notes below.
 

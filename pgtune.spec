@@ -1,6 +1,6 @@
 Summary:	PostgreSQL Config Tuner
 Name:		pgtune
-Version:	0.9.2
+Version:	0.9.4
 Release:	1%{?dist}
 License:	BSD
 Group:		Applications/Databases
@@ -45,3 +45,13 @@ rm -rf %{buildroot}
 - Initial packaging for PostgreSQL RPM Repository
 * Wed Oct 28 2009 Greg Smith <gsmith@gregsmith.com> 0.9.2-1
 - Added copyright file, does not install sample postgresql.conf file.
+* Wed March 14 2014 Eric Litwin <elitwin@rocketmail.com> 0.9.3
+- Cleanup formatting to support 80 column display
+* Fri March 14 2014 Eric Litwin <elitwin@rocketmail.com> 0.9.3
+- Allow version to be targeted via command line argument
+* Fri March 14 2014 Eric Litwin <elitwin@rocketmail.com> 0.9.3
+- Allow version to be targeted via command line argument
+* Mon March 17 2014 Eric Litwin <elitwin@rocketmail.com> 0.9.3
+- pep8 compliance and added 9.3 settings
+* Wed May 27 2015 Eric Litwin <elitwin@rocketmail.com> 0.9.4
+- Added support for 9.4 and changed default version
