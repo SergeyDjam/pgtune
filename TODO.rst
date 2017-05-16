@@ -84,6 +84,42 @@ Changes to backport to stable release
 * default_statistics_target detuning
 * Nicer header
 
+Support newer 9.6 settings
+--------------------------
+autovacuum_work_mem
+backend_flush_after
+bgwriter_flush_after
+checkpoint_flush_after
+cluster_name
+data_checksums
+data_directory
+dynamic_shared_memory_type
+force_parallel_mode
+gin_pending_list_limit
+idle_in_transaction_session_timeout
+log_replication_commands
+max_parallel_workers_per_gather
+max_wal_size
+min_parallel_relation_size
+min_wal_size
+old_snapshot_threshold
+operator_precedence_warning
+parallel_setup_cost
+parallel_tuple_cost
+replacement_sort_tuples
+row_security
+server_encoding
+session_preload_libraries
+syslog_sequence_numbers
+syslog_split_messages
+track_commit_timestamp
+transaction_deferrable
+transaction_isolation
+transaction_read_only
+wal_compression
+wal_retrieve_retry_interval
+wal_writer_flush_after
+
 Implementation ideas
 ====================
 
