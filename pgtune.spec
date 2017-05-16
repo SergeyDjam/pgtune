@@ -1,6 +1,6 @@
 Summary:	PostgreSQL Config Tuner
 Name:		pgtune
-Version:	0.9.4
+Version:	0.9.6
 Release:	1%{?dist}
 License:	BSD
 Group:		Applications/Databases
@@ -55,3 +55,5 @@ rm -rf %{buildroot}
 - pep8 compliance and added 9.3 settings
 * Wed May 27 2015 Eric Litwin <elitwin@rocketmail.com> 0.9.4
 - Added support for 9.4 and changed default version
+* Wed May 16 2017 Eric Litwin <elitwin@rocketmail.com> 0.9.6
+- Added support for 9.6

@@ -31,3 +31,5 @@
       2014-03-17 pep8 compliance and added support for 9.3
 
 0.9.4 2015-05-27 Added support for 9.4 and changed default version
+
+0.9.6 2017-05-16 Added basic support for 9.6 (prevents errors but does not add new settings)

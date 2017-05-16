@@ -669,7 +669,7 @@ def read_options(program_args):
                       dest="version",
                       default="9.4",
                       help="PostgreSQL database version to tune for. "
-                           "Valid options are 8.4, 9.0, 9.1, 9.3 and 9.4")
+                           "Valid options are 8.4, 9.0, 9.1, 9.3, 9.4 and 9.6")
 
     parser.add_option('-P',
                       '--platform',

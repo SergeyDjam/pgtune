@@ -51,7 +51,7 @@ are the current parameters:
    DW, OLTP, Web, Mixed, Desktop
 
  * -V or --version : Specifices database version to tune for. Valid options are:
-   8.4, 9.0, 9.1, 9.3 and 9.4
+   8.4, 9.0, 9.1, 9.3, 9.4 and 9.6
 
  * -P or --platform : Specifies platform, defaults to the platform running
    the program.  Valid options are Windows, Linux, and Darwin (Mac OS X).
